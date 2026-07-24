@@ -1,22 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+*,* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 header {
     background-color: #E4E4E4;
     padding: 20px;
     text-align: center;
-    
+    border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000;
 }
 
 
 h1 {
-    color: #000000;
+    color: #0f0f0f;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 100px;
+    font-family: "Arimo", sans-serif;
 }
 
-
-img {
+header img {
     color:#E4E4E4;
     display: block;
     margin-left: auto;
@@ -28,7 +39,7 @@ nav {
     background-color: #E4E4E4;
     padding: 10px;
     display: flex;
-    
+    justify-content: space-between;
 }
 
 a {
@@ -39,3 +50,25 @@ a {
     gap: 5px;
 }
 
+.conta a {
+    color: #000000;
+    gap: 3px;
+}
+    
+
+img {
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+section.Foto-Porsche {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 50%;
+    height: 350px;
+}
